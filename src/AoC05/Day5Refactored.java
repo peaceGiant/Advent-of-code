@@ -13,7 +13,7 @@ import java.util.Stack;
 public class Day5Refactored {
 
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("C:\\Users\\PeceG\\IdeaProjects\\adventOfCode\\adventOfCode\\src\\AoC05\\data");
+        File file = new File("src\\AoC05\\data");
         BufferedReader br = new BufferedReader(new FileReader(file));
 
         List<String> lines = br.lines().toList();

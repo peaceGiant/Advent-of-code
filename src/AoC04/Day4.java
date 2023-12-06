@@ -30,7 +30,7 @@ public class Day4 {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("C:\\Users\\PeceG\\IdeaProjects\\adventOfCode\\adventOfCode\\src\\AoC04\\data");
+        File file = new File("src\\AoC04\\data");
         BufferedReader br = new BufferedReader(new FileReader(file));
 
         List<String> lines = br.lines().toList();

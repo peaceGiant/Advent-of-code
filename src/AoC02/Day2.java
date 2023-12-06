@@ -69,13 +69,13 @@ public class Day2 {
 
 
     public static void main(String[] args) throws IOException {
-        File file = new File("C:\\Users\\PeceG\\IdeaProjects\\adventOfCode\\adventOfCode\\src\\AoC02\\data.txt");
+        File file = new File("src\\AoC02\\data.txt");
         BufferedReader br = new BufferedReader(new FileReader(file));
 
         int result = br.lines().mapToInt(Day2::parseString2).sum();
         System.out.println(result);
 
-        System.out.println(parseString2("Game 3: 8 green, 6 blue, 20 red; 5 blue, 4 red, 13 green; 5 green, 1 red"));
+        System.out.println(parseString("Game 3: 8 green, 6 blue, 20 red; 5 blue, 4 red, 13 green; 5 green, 1 red"));
 
         br.close();
     }

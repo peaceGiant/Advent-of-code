@@ -22,7 +22,7 @@ class Tuple {
 public class Day6 {
 
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("C:\\Users\\PeceG\\IdeaProjects\\adventOfCode\\adventOfCode\\src\\AoC06\\data");
+        File file = new File("src/AoC06/data");
         BufferedReader br = new BufferedReader(new FileReader(file));
 
         List<String> lines = br.lines().toList();

@@ -47,7 +47,7 @@ public class Day1 {
     }
 
     public static void main(String[] args) throws IOException {
-        File file = new File("C:\\Users\\PeceG\\IdeaProjects\\adventOfCode\\adventOfCode\\src\\AoC01\\data.txt");
+        File file = new File("src\\AoC01\\data.txt");
         BufferedReader br = new BufferedReader(new FileReader(file));
 
         int result = br.lines().mapToInt(Day1::getCalibrationNumber).sum();

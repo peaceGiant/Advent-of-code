@@ -40,7 +40,7 @@ class Gear {
 public class Day3 {
 
     public static void main(String[] args) throws IOException {
-        File file = new File("C:\\Users\\PeceG\\IdeaProjects\\adventOfCode\\adventOfCode\\src\\AoC03\\data");
+        File file = new File("src\\AoC03\\data");
         BufferedReader br = new BufferedReader(new FileReader(file));
 
         List<String> lines = br.lines().toList();
